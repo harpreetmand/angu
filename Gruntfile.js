@@ -50,7 +50,7 @@ module.exports = function (grunt)
 	//npm tasks
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-sass');
+	//grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-ngdocs');
@@ -58,8 +58,11 @@ module.exports = function (grunt)
 	//tasks
 	grunt.registerTask('default', 'Default Task Alias', ['build']);
 
-	grunt.registerTask('build', 'Build the application', 
-		['sass:dev',
-		'concat'
+	// grunt.registerTask('build', 'Build the application', 
+	// 	['sass:dev',
+	// 	'concat'
+	// 	]);
+			grunt.registerTask('build', 'Build the application', 
+		['concat'
 		]);
 }

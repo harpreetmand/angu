@@ -1,0 +1,2 @@
+# angu
+first angularJS project

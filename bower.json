@@ -1,0 +1,22 @@
+{
+  "name": "angular",
+  "version": "0.1.0",
+  "authors": [
+    "harpreetmand <harpreetmand@gmail.com>"
+  ],
+  "description": "first angular project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "modernizer": "~2.8.2",
+    "angular-route": "~1.4.0"
+  }
+}
